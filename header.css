@@ -1,0 +1,249 @@
+.header{
+  display: flex;
+   height: 54px;
+   flex-direction: row;
+   justify-content: space-between;
+   position: fixed;
+   top:0px;
+   left:0px;
+   right: 0px;
+   background-color: rgb(255, 252, 252);
+   border-bottom-color: rgb(226, 222, 222) ;
+
+   border-bottom-style: solid;
+   background-color:white;
+   z-index: 2 ;
+   margin-bottom: 20px;
+   border-bottom-width:1px ;
+   
+}
+.left-section{
+  margin-right: 40px;
+  align-items: center;
+  display: flex;
+  margin-left: 14px;
+}
+.middle-section{
+  flex: 1;
+  max-width: 430px;
+  display: flex;
+  
+  align-items: center;
+}
+.right-section{
+width: 200px;
+margin-left: 35px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-shrink: 0;
+margin-right: 9px;
+}
+.icon-three-notification-container{
+  position: relative;
+}
+.hamburger-menu{
+  width:20px;
+  height: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  padding-right: 7px;
+
+}
+.youtube-logo{
+  height: 23px;
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+.button-search{
+  width: 45px;
+  height: 36px;
+  border: none;
+  box-shadow: 0 0 1px;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: rgb(246, 245, 245);
+  position: relative;
+  transition:0.15s;
+}
+
+  .button-search:hover{
+    background-color: rgb(235, 235, 235);
+
+  }
+
+.button-search .tooltip{
+  position:absolute;
+background-color: rgb(101, 100, 100);
+color: white;
+font-size: 12px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 3px;
+padding-right:3px;
+padding-top: 7px;
+padding-bottom: 7px;
+bottom: -36px;
+right: 1px;
+opacity: 0;
+transition:0.25s;
+pointer-events: none;
+
+}
+.button-search:hover .tooltip{
+  opacity: 1;
+}
+
+.button-voice{
+  width: 45px;
+  height: 40px;
+  border-radius: 25px;
+  border:none;
+  margin-left: 8px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  transition:0.25s;
+}
+.button-voice .tooltip-1{
+  background-color: rgb(101, 100, 100);
+  color:white;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom: -31px;
+    pointer-events: none;
+    white-space: nowrap;    
+    padding: 6px;
+    transition:0.24s;
+opacity: 0;
+}
+.button-voice:hover .tooltip-1{
+  opacity:1;
+}
+.search-bar{
+  flex: 1;
+  height: 38px;
+  border: none;
+box-shadow: inset 0 0 2px;
+padding-left: 10px;
+width: 0px;
+font-weight: 500;
+
+font-size: 16px;
+font-family: Roboto,Arial, Helvetica, sans-serif;
+
+}
+.search-bar::placeholder{
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search-icon{
+  height: 27px;
+}
+.voice-icon{
+  height: 25px;
+}
+.icon-one{
+  height: 25px;
+  cursor: pointer;
+}
+.icon-two{
+  height:25px;
+  cursor: pointer;
+}
+.icon-three{
+  height:25px;
+  cursor: pointer;
+  
+}
+.icon-four{
+  height: 29px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.icon-three-notification-container{
+  position: relative;
+}
+.notification{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: rgb(221, 8, 8);
+  color:white;
+  border-radius: 18px;
+ font-size:11px;
+ padding-left:6px;
+ padding-right:7px;
+ padding-top:3px;
+ padding-bottom:2px;
+ left:9px;
+ bottom: 9px;
+ font-family: Arial, Helvetica, sans-serif;
+ cursor: pointer;
+}
+.container-logo-1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+.container-logo-1 .tooltip-logo-1{
+  position: absolute;
+  background-color: rgb(101, 100, 100);
+  color:white;
+  font-size:12px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 3px;
+  padding-bottom: 6px;
+bottom:-36;
+ padding-left: 2px;
+ padding-right: 3px;
+opacity: 0;
+pointer-events: none;
+transition:0.2s;
+
+}
+.container-logo-1:hover .tooltip-logo-1{
+  opacity:1;
+}
+.container-logo-2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container-logo-2 .tooltip-logo-2{
+  position: absolute;
+  background-color: rgb(101, 100, 100);
+  color:white;
+  font-size:12px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 3px;
+  padding-bottom: 6px;
+bottom:-36;
+ padding-left: 2px;
+ padding-right: 1px;
+opacity: 0;
+pointer-events: none;
+transition:0.2s;
+
+
+
+white-space: nowrap;
+
+}
+.container-logo-2:hover  .tooltip-logo-2{
+  opacity: 1;
+}
